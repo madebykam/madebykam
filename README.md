@@ -1,6 +1,6 @@
 # Portfolio Website
 
-Welcome to the source code of **Kamel Zehani's portfolio website**!  
+That is my portfolio website!  
 This project showcases my work, skills, and background as a front-end developer.
 
 ---
