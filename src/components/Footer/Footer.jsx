@@ -12,7 +12,7 @@ const Footer = () => {
     }
   return (
     <div className='footer'>
-        <p>© 2025 Kam Zehani All rights reserved</p>
+        <p>© 2026 Kam Zehani All rights reserved</p>
         <a href='#' className='go-up'onClick={handleGoUp}>
             <img src= {arrowup} alt='go-up' />
         </a>
