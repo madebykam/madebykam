@@ -10,9 +10,23 @@ import ontheroad from "../../assets/ontheroad.png";
 import boxer from "../../assets/Boxer.png";
 import micasa from "../../assets/Micasa.png";
 import aroma from "../../assets/Aroma.png";
+import tattoobooking from "../../assets/tattoo-booking.png";
 import "./theportfolio.css";
 
 const projects = [
+    {
+    title: "Tattoo Appointment Manager",
+    github: "https://github.com/madebykam/tattoo-appointment-manager",
+    live: "https://tattoo-appointment-manager.netlify.app/booking",
+    task: "Web Development",
+    description:
+      "A real-world booking app built for local businesses,making it easy for clients to request appointments and owners to manage their schedule.",
+    img: tattoobooking,
+    bg: "#575757",
+    boxShadow: "0 0 20px rgb(189, 189, 189), 0 0 40px rgb(189, 189, 189), 0 0 60px rgb(189, 189, 189)",
+    details:
+      "I built this project because I wanted to create something that could solve a real problem for many local businesses. The biggest difficulty was working with Firebase, especially structuring the booking data and keeping pending and confirmed appointments in sync. It made me realize where my code and project structure could be improved, and pushed me to find cleaner ways to organize my logic and make the application more reliable.",
+  },
   {
     title: "Weather Now",
     github: "https://github.com/CyberBeeDesign/Weather-Now",
