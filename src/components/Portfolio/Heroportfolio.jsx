@@ -14,7 +14,7 @@ const Heroportfolio = () => {
       <div className={`portfolio-hero-left${animate ? " slide-in-left" : ""}`}>
 
           <div className="title-portfolio">
-            <h1>portfolio</h1>
+            <h1 className="title">portfolio</h1>
             <h1 className="point">.</h1>
           </div>
         <div className="description-portfolio">

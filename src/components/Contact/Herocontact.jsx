@@ -17,7 +17,7 @@ const Herocontact = () => {
     <div className="contact-hero">
       <div className={`contact-hero-left${animate ? " slide-in-left" : ""}`}>
         <div className="title-contact">
-          <h1>contact</h1>
+          <h1 className="title">contact</h1>
           <h1 className="point">.</h1>
         </div>
         <div className="description-contact">

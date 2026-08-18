@@ -39,8 +39,7 @@
 
 .hero-left-text h1,
 .hero-right-text h1 {
-    font-size: 3.5rem;
-    line-height: 1.2;
+    font-size: 4.5rem;
 }
 
 .hero-left-text {
@@ -147,14 +146,56 @@
     width: 300px;
 }
 
+@media only screen and (max-width: 960px) {
+
+    .hero-left-text h1,
+    .hero-right-text h1 {
+        font-size: 4 rem;
+    }
+
+    .hero-left-text p,
+    .hero-right-text p {
+        font-size: 0.9rem;
+        width: 220px;
+    }
+
+    .hero-right-text p {
+        text-align: right;
+    }
+
+    .ellipse-blue-big {
+        width: 30px;
+        right: 90%;
+    }
+
+    .union-blue {
+        width: 25px;
+        left: 15%;
+    }
+
+    .ellipse-grey {
+        right: 15%;
+    }
+
+    .union-grey {
+        top: 10%;
+        right: 20%;
+    }
+}
+
 @media only screen and (max-width: 768px) {
 
     .hero {
         max-width: 700px;
         width: calc(100% - 60px);
-        margin: 0 1.25rem;
+        margin: 0 2rem;
+        height: 80vh;
         padding-top: 3rem;
-        height: 70vh;
+    }
+
+    .hero-left-text h1,
+    .hero-right-text h1 {
+        font-size: clamp(2.6rem, 7vw, 3.5rem);
     }
 
     .hero p {
@@ -163,39 +204,45 @@
 
     .portrait {
         left: 50%;
-        top: 60%;
-        height: 80%;
+        top: 65%;
+        height: 70%;
         z-index: 1000;
     }
 
     .ellipse-yellow {
-        width: 18px;
+        width: 20px;
         top: 22%;
         left: 15%;
     }
 
     .union-blue {
-        width: 25px;
-        top: 55%;
-        left: 20%;
+        width: 20px;
+        top: 60%;
+        left: 10%;
     }
 
     .ellipse-blue-big {
-        width: 35px;
-        top: 30%;
-        right: 75%;
+        width: 30px;
+        top: 25%;
+        right: 80%;
     }
 
     .ellipse-grey {
         width: 20px;
-        top: 55%;
-        right: 25%;
+        top: 70%;
+        right: 15%;
     }
 
     .union-yellow {
-        width: 20px;
-        top: 25%;
+        width: 15px;
+        top: 30%;
         right: 15%;
+    }
+
+    .union-grey {
+        width: 20px;
+        top: 15%;
+        right: 20%;
     }
 
 
@@ -207,11 +254,7 @@
         width: calc(100% - 30px);
         margin: 0 1rem;
         padding-top: 2rem;
-        height: 60vh;
-    }
-
-    .hero h1 {
-        font-size: 2.5rem
+        height: 70vh;
     }
 
     .hero p {
@@ -220,59 +263,45 @@
 
     .portrait {
         left: 50%;
-        top: 62%;
-        height: 75%;
+        top: 65%;
+        height: 70%;
     }
 
     .ellipse-yellow {
         width: 15px;
-        top: 18%;
+        top: 25%;
         left: 12%;
     }
 
     .union-blue {
         width: 18px;
-        top: 50%;
-        left: 12%;
+        top: 62%;
+        left: 8%;
     }
 
     .ellipse-blue-big {
         width: 22px;
-        top: 25%;
+        top: 15%;
         right: 80%;
     }
 
     .union-grey {
-        width: 10px;
-        top: 22%;
+        width: 15px;
+        top: 25%;
         right: 25%;
     }
 
     .ellipse-grey {
         width: 17px;
-        top: 50%;
-        right: 15%;
+        top: 60%;
+        right: 10%;
     }
 
     .union-yellow {
-        width: 15px;
-        top: 18%;
+        width: 18px;
+        top: 15%;
         right: 12%;
     }
-
-    .hero-left-text h1,
-    .hero-right-text h1 {
-        font-size: 2rem;
-        line-height: 1.2;
-    }
-
-    .hero-left-text p,
-    .hero-right-text p {
-        font-size: 0.874rem;
-        line-height: 1.25rem;
-    }
-
-
 
 
 }
