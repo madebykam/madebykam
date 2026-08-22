@@ -115,9 +115,9 @@
 
 .ellipse-blue-big {
     position: absolute;
-    width: 40px;
+    width: 30px;
     top: 40%;
-    right: 70%;
+    right: 100%;
     z-index: 2;
 }
 

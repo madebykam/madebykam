@@ -214,6 +214,7 @@
     .contact-hero-right {
         width: 100%;
         flex: none;
+        margin: 0 1rem;
     }
 
     .contact-hero-left {

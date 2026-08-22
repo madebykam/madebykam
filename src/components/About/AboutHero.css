@@ -194,6 +194,7 @@
 
     .about-hero-left,
     .about-hero-right {
+        margin: 0 1rem;
         width: 100%;
         flex: none;
     }
