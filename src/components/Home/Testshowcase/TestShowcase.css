@@ -1,0 +1,65 @@
+.portfolio-card {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  gap: 2rem;
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 16px;
+  padding: 2rem;
+  align-items: center;
+  max-width: 1000px;
+  margin: 2rem auto;
+}
+
+.card-media img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.project-tag {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #2563eb;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.interface-highlights {
+  margin: 1.25rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.highlight-item {
+  font-size: 0.95rem;
+  color: #334155;
+  background: #f8fafc;
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  border-left: 3px solid #2563eb;
+}
+
+.tech-pills {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.tech-pills span {
+  background: #f1f5f9;
+  color: #475569;
+  font-size: 0.75rem;
+  padding: 0.25rem 0.6rem;
+  border-radius: 4px;
+  font-weight: 600;
+}
+
+/* Responsive adjustment for smaller screens */
+@media (max-width: 768px) {
+  .portfolio-card {
+    grid-template-columns: 1fr;
+  }
+}
